@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    echo " My first pipeline is working!"
+    echo "This is so cool!"
+  displayName: 'Celebration time!'
